@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>DEVFORGE Student Support AI</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="header">
+            <h1>DEVFORGE Student Support AI</h1>
+            <p>
+                Ask questions about Python, FastAPI, LangGraph,
+                RAG, GitHub, Render and DEVFORGE.
+            </p>
+        </div>
+
+        <div id="chatBox" class="chat-box">
+
+            <div class="message bot">
+                <strong>DEVFORGE AI:</strong>
+                <p>
+                    Hello! How can I help you with your DEVFORGE
+                    learning today?
+                </p>
+            </div>
+
+        </div>
+
+        <div class="input-area">
+
+            <input
+                type="text"
+                id="messageInput"
+                placeholder="Ask your question..."
+                autocomplete="off"
+            >
+
+            <button id="sendButton">
+                Send
+            </button>
+
+        </div>
+
+        <p id="status"></p>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
